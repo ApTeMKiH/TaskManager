@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d179834-0cf1-4c91-bb98-43fdb6b620e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/TestAVK_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/TestAVK_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAVK.iml" afterPath="$PROJECT_DIR$/TestAVK.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,8 +44,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="153">
+              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1094,7 +1092,7 @@
       <workItem from="1496172559279" duration="11615000" />
       <workItem from="1496223682091" duration="619000" />
       <workItem from="1496322794751" duration="37000" />
-      <workItem from="1496692325485" duration="4636000" />
+      <workItem from="1496692325485" duration="5239000" />
     </task>
     <task id="LOCAL-00001" summary="Change dependency">
       <created>1496694311615</created>
@@ -1138,11 +1136,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496698149343</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Change dependency2">
+      <created>1496698321860</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1496698321860</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96710000" />
+    <option name="totallyTimeSpent" value="97313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1243,7 +1248,8 @@
     <MESSAGE value="Change xml" />
     <MESSAGE value="Chenge xml db" />
     <MESSAGE value="Change dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change dependency" />
+    <MESSAGE value="Change dependency2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change dependency2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1548,8 +1554,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        <state relative-caret-position="153">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
       </provider>
