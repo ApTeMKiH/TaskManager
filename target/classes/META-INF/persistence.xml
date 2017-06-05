@@ -3,7 +3,7 @@
 <persistence-unit name="Main">
     <properties>
         <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
-        <property name="hibernate.connection.url" value="jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/heroku_97c5e6baef68f07?reconnect=true?createDatabaseIfNotExist=true"/>
+        <property name="hibernate.connection.url" value="jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/heroku_97c5e6baef68f07?reconnect=true"/>
         <property name="hibernate.connection.username" value="b70f2680088c6c"/>
         <property name="hibernate.connection.password" value="b424abdb"/>
         <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
