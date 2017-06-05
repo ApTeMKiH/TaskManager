@@ -5,11 +5,267 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d179834-0cf1-4c91-bb98-43fdb6b620e1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/TestAVK_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/TestAVK_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/blog.sql" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/beans.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/controllers/BaseController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/controllers/FeedbackController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/controllers/TaskController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/entity/Feedback.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/entity/Task.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/entity/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/repositories/FeedbackRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/repositories/TaskRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/repositories/UserRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/service/FeedbackService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/service/TaskService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/service/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/service/implementation/FeedbackServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/service/implementation/TaskServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/classes/ua/lviv/service/implementation/UserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/HikariCP-2.4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.8.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/commons-dbcp-1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/commons-digester-2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/commons-httpclient-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/commons-pool-1.5.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-4.0.5.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-4.3.10.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-4.3.10.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/httpclient-4.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.6.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-base-2.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/jandex-1.1.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.18.1-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/jsp-api-2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.36.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/persistence-api-1.0.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/restfb-1.22.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.11.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-data-jpa-1.9.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-security-acl-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-security-taglibs-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-4.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.1.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/tiles-api-3.0.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/tiles-autotag-core-runtime-1.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/tiles-core-3.0.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/tiles-jsp-3.0.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/tiles-request-api-1.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/tiles-request-jsp-1.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/tiles-request-servlet-1.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/tiles-servlet-3.0.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/tiles-template-3.0.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/bg_tms.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/ajax-loader_b.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/b_c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/b_l.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/b_r.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/bg_load.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/bg_load.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/c_l.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/c_r.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/close_btn3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/img_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/link_out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/link_out.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/link_out_h.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/link_out_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/next_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/nextoutside.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/nextoutside_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/pause.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/pause_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/play_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/prev_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/prevoutside.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/prevoutside_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/t_c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/t_l.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/black/t_r.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/css_page.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shad_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/ajax-loader_b.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/b_c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/b_l.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/b_r.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/bg_load.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/bg_load.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/c_l.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/c_r.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/close_btn3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/img_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/link_out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/link_out.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/link_out_h.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/link_out_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/next_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/nextoutside.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/nextoutside_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/pause.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/pause_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/play_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/prev_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/prevoutside.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/prevoutside_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/t_c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/t_l.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/shadow/t_r.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/ajax-loader_b.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/ajax-loader_w.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/b_c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/b_l.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/b_r.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/bg_load.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/bg_load.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/bg_load_w.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/c_l.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/c_r.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/close_btn3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/credits_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/img_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/link_out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/link_out.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/link_out_h.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/link_out_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/next_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/nextoutside.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/nextoutside_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/pause.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/pause_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/pirobox_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/play_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/prev_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/prevoutside.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/prevoutside_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/t_c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/t_l.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/css_pirobox/white/t_r.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/avator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/chart1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/chart2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/templatemo_body.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/templatemo_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/templatemo_button_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/templatemo_comment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/templatemo_featured_project.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/templatemo_featured_project_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/templatemo_footer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/templatemo_header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/templatemo_image_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/templatemo_image_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/templatemo_list.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/templatemo_menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/templatemo_menu_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/templatemo_post_bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/templatemo_rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/images/templatemo_wrapper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/js/jquery-1.11.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/js/myScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/js/piroBox.1_2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/js/piroBox.1_2_min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/js/s3Slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/s3slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/blog/templatemo_style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/bootstrap/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/bootstrap/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/resources/myScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/views/addTask.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/views/editFeedback.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/views/editTask.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/views/fromYou.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/views/home.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/views/registration.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/views/signIn.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/views/task.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TestAVK-1.0-SNAPSHOT/views/tasks.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/controllers/BaseController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/controllers/FeedbackController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/controllers/TaskController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/entity/Feedback.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/entity/Task.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/entity/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/repositories/FeedbackRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/repositories/TaskRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/repositories/UserRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/service/FeedbackService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/service/TaskService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/service/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/service/implementation/FeedbackServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/service/implementation/TaskServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ua/lviv/service/implementation/UserServiceImpl.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestAVK.iml" afterPath="$PROJECT_DIR$/TestAVK.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,14 +279,52 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="121">
               <caret line="202" column="17" lean-forward="false" selection-start-line="202" selection-start-column="17" selection-end-line="202" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b7f99dba-27c4-49c8-ab7d-d4de3bd85cc1/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/blog.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="140" lean-forward="false" selection-start-line="5" selection-start-column="140" selection-end-line="5" selection-end-column="140" />
               <folding />
             </state>
           </provider>
@@ -89,7 +383,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/lgs/service/ArticleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/lgs/service/implementation/ArticleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/lgs/entity/Article.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ua/lviv/lgs/controllers/ArticleController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/blog/js/myScript.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/articles.jsp" />
@@ -128,6 +421,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/views/fromYou.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/home.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
       </list>
     </option>
   </component>
@@ -237,38 +531,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TestAVK" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestAVK" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestAVK" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestAVK" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestAVK" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maven-status" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -557,16 +819,18 @@
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Артем\Desktop\TestAVK\src\main\webapp\resources" />
+      <recent name="C:\Users\Артем\Desktop\TestAVK\src\main\webapp\resources\blog" />
+      <recent name="C:\Users\Артем\Desktop\TestAVK\src\main\webapp\resources\bootstrap" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Артем\Desktop\TestAVK\src\main\webapp\resources\blog\js" />
       <recent name="C:\Users\Артем\Desktop\TestAVK\src\main\webapp\resources" />
       <recent name="C:\Users\PC-6\IdeaProjects\TestAVK\src\main\webapp\views" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Артем\Desktop\TestAVK\src\main\webapp\resources\blog" />
-      <recent name="C:\Users\Артем\Desktop\TestAVK\src\main\webapp\resources\bootstrap" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1105,7 +1369,7 @@
       <workItem from="1496172559279" duration="11615000" />
       <workItem from="1496223682091" duration="619000" />
       <workItem from="1496322794751" duration="37000" />
-      <workItem from="1496692325485" duration="1026000" />
+      <workItem from="1496692325485" duration="2445000" />
     </task>
     <task id="LOCAL-00001" summary="Change dependency">
       <created>1496694311615</created>
@@ -1114,11 +1378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496694311615</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Change dependency">
+      <created>1496694369339</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1496694369339</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93100000" />
+    <option name="totallyTimeSpent" value="94519000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1137,11 +1408,11 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1151,8 +1422,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1227,14 +1498,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/dao/FeedbackDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/service/FeedbackService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/dao/implementation/UserDaoImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/lviv/service/implementation/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1329,14 +1592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -1503,6 +1758,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="202" column="17" lean-forward="false" selection-start-line="202" selection-start-column="17" selection-end-line="202" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="140" lean-forward="false" selection-start-line="5" selection-start-column="140" selection-end-line="5" selection-end-column="140" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b7f99dba-27c4-49c8-ab7d-d4de3bd85cc1/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/blog.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding />
         </state>
       </provider>
